@@ -1,17 +1,13 @@
 #include <stdio.h>
 
-/*
- Write a C program that prints exactly \" Programming is like building a multilingual puzzle, followed by a new line.
- Use the function puts
- You are not allowed to use printf
- Your program should end with the value 0
- time complexity is O(1) because time taken to print is constant 
- space complexity is O(1) because no extra space is used
-output: \"Programming is like building a multilingual puzzle, followed by a new line. 
- */
+/**
+*main - the name of the function that is called when the program starts.
+*
+*Return: 0  showing that the program ran successfully.
+*/
 
-int main()
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle \n");
+	puts("\"Programming is like building a multilingual puzzle ");
 	return (0);
 }
