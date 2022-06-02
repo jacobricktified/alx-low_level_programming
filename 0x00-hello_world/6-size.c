@@ -3,6 +3,8 @@
 /**
  * main-	the name of the function that is called when the program starts
  * Return:	showing that the program ran successfully.
+ * time complexity: O(1)
+ * space complexity: O(1)
  */
 
 int main(void)
