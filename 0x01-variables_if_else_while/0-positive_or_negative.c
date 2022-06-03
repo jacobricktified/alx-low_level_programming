@@ -1,5 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdlib.h>
+
+ /* more headers goes there */
 
  /*
  * betty style doc for function main goes there
@@ -13,10 +16,12 @@
  * space time complexity is O(1)
  *
  * time complexity is O(1)
+ *
  */
 
-int main void
+int main(void)
 {
+
 	int n;
 
 	srand(time(0));
