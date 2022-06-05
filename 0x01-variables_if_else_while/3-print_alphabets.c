@@ -20,11 +20,11 @@ int main(void)
 	{
 	putchar(alpha);
 	}
-	putchar('\n');
 	for (alpha = 65; alpha <= 90; alpha++)
 	{
 	putchar(alpha);
 	}
+	putchar('\n');
 
 	return (0);
 }
