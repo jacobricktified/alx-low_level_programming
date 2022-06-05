@@ -2,7 +2,7 @@
 /*
  * betty style doc for function main goes there
  *
- * main - is the start point of the program that will that prints the alphabet in lowercase, followed by a new line
+ * main - is the start point of the program that will that prints the alphabet in lowercase
  * 
  * Return: 0 means the program is successful
  *
