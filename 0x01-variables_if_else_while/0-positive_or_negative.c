@@ -2,20 +2,18 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
- /*
- * betty style doc for function main goes there
- *
- * main - is the start point of the program that will assign a random number to the variable n each time it is executed and 
- * print whether the number stored in the variable n is positive or negative.
- *
- * Return: 0 means the program is successful
- *
- * space time complexity is O(1)
- *
- * time complexity is O(1)
- */
+/**
+*main - print wheather number is positive , zero or negative
+*
+* Return: 0 means the program is successful
+*
+* space time complexity is O(1)
+*
+* time complexity is O(1)
+*
+*/
 
-int main (void)
+int main(void)
 {
 	int n;
 
