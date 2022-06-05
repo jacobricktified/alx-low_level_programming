@@ -18,8 +18,7 @@ int main(void)
 
 	for (alf = 'a'; alf <= 'z'; alf++)
 	{
-	putchar(alf);
-	putchar('\n');
+	putchar(alf)
 	}
 
 	return (0);
