@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
-*main - is the start point of the program that prints all the numbers of base 16 in lowercase
+*main - is the start point of the program
+*
+*Description:  prints all the numbers of base 16 in lowercase
 *
 *Return: 0 means the program is successful
 *
