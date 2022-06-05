@@ -21,5 +21,6 @@ int main(void)
 		putchar(alf);
 		putchar('\n');
 	}
+
 	return (0);
 }
