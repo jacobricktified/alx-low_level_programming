@@ -11,13 +11,14 @@
 *
 *time complexity is O(1)
 */
+
 int main(void)
 {
 
-	char alf;
+	char alpha;
 
-	for (alf = 'a'; alf <= 'z'; alf++)
-		putchar(alf)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+		putchar(c);
 		putchar('\n');
 
 	return (0);
