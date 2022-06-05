@@ -19,8 +19,8 @@ int main(void)
 	for (numbers = 0; numbers < 10; numbers++)
 	{
 		printf("%i", numbers);
-		putchar('\n');
 	}
+	putchar('\n');
 
 	return (0);
 }
