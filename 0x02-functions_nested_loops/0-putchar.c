@@ -14,12 +14,12 @@
 
 int main(void)
 {
-	char this[8] = "_putchar";
+	char w[8] = "_putchar";
 	int i;
 
 	for (i = 0; i < 8; i++)
 	{
-	_putchar(x[i]);
+	_putchar (w[i]);
 	}
 	_putchar ('\n');
 	return (0);
