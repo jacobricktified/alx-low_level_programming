@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_to_98 - prints all natural numbers from n to 98,
- * followed by a new line
+ *
  * @a: print from this number
  */
-void print_to_98(int n)
+void print_to_98(int a)
 {
 	int i, b;
 
