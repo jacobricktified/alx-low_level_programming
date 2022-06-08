@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-*main - start of the program
+*print_alphabet - start of the program
 *
 *Return: 0 means the program is successful
 *
-*Descrition: prints the alphabet, in lowercase
+*Description: prints the alphabet, in lowercase
 *
 *space time complexity is O(1)
 *
