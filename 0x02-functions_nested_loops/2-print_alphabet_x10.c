@@ -1,25 +1,31 @@
 #include "main.h"
 
 /**
-*print_alphabet - start of the program
+*print_alphabet_x10 - prints 10 times the alphabet
 *
 *Return: 0 means the program is successful
 *
-*Description: prints the alphabet, in lowercase
+*Description: a function that prints 10 times the alphabet
 *
 *space time complexity is O(1)
 *
 *time complexity is O(1)
 */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char alph = 'a';
+	char alpha;
+	int i = 0;
 
-	while (alph <= 'z')
+	while (i < 10)
 	{
-	_putchar(alph);
-	alph++;
+		alpha = 'a';
+		while (alpha <= 'z')
+		{
+			_putchar(alpha);
+			alpha++;
+		}
+		_putchar('\n');
+		i++;
 	}
-	_putchar('\n');
 }
