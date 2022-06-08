@@ -1,31 +1,25 @@
 #include "main.h"
 
 /**
-*main - start of the program
+*print_alphabet - start of the program
 *
 *Return: 0 means the program is successful
 *
-*Descrition: a program that prints _putchar
+*Description: prints the alphabet, in lowercase
 *
 *space time complexity is O(1)
 *
 *time complexity is O(1)
 */
 
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-	char alpha;
-	int i = 0;
+	char alph = 'a';
 
-	while (i < 10)
+	while (alph <= 'z')
 	{
-		alpha = 'a';
-	while (ch <= 'z')
-	{
-	_putchar(alpha);
-		ch++;
+	_putchar(alph);
+	alph++;
 	}
 	_putchar('\n');
-		i++;
-	}
 }
