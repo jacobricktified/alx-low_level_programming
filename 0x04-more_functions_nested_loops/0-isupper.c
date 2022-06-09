@@ -11,18 +11,23 @@
 
 int _isupper(int c)
 {
-    int result = 0;
+    int result;
+    int upper = 'A';
+    int lower = 'a';
 
-    for (char uppercase = 'A'; uppercase <= 'Z'; uppercase++)
+    for (upper = 'A'; upper <= 'Z'; upper++)
     {
-        if (c == uppercase)
+        if (c == upper)
         {
             result = 1;
         }
-        else if (c != uppercase)
-        {
-            result = 0;
-        }
-
+        for (lower = 'a'; lower <= 'z'; lower++)
+            {
+            if (c == lower)
+            {
+                result = 0;
+            }
+            }
     }
+    return (result);
 }
