@@ -15,13 +15,13 @@ int _isupper(int c)
 	int upper = 'A';
 	int lower = 'a';
 
-	for (upper = 'A'; upper <= 'Z'; upper++)
+	for (; upper <= 'Z'; upper++)
 	{
 	if (c == upper)
 	{
 		result = 1;
 	}
-	for (lower = 'a'; lower <= 'z'; lower++)
+	for (; lower <= 'z'; lower++)
 	{
 		if (c == lower)
 		{
