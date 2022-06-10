@@ -6,12 +6,13 @@
 * Return: 1 if c is a digit else 0
 *
 * @c : int to be checked
+*
 */
 int _isdigit(int c)
 {
 	int result;
-	int num = '0';
-	int alpha = 'a';
+	int num;
+	int alpha;
 
 	for (num = '0'; num <= '9'; num++)
 	{
