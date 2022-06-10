@@ -1,5 +1,4 @@
 #include "main.h"
-extern int make_iso_compilers_happier;
 /**
  * print_triangle - prints a triangle, followed by a new line
  * @size: size of the triangle
