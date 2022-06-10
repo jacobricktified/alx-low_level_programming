@@ -1,32 +1,16 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-* _isdigital - Print numbers between 0 to 9
-*
-* Return: 1 if c is a digit else 0
-*
-* @c : int to be checked
-*
+* _isdigit - Check if paramter c represents an digit.
+* @c: Int representing an ascii character
+* Return: Return 1 if it is a digit else return 0.
 */
 int _isdigit(int c)
 {
-	int result;
-	int num = '0';
-	int alpha = 'a';
-
-	for ( ; num <= '9'; num++)
-	{
-	if (c == num)
-	{
-	result = 1;
-	}
-	for ( ; alpha <= 'z'; alpha++)
-	{
-	if (c == alpha)
-	{
-	result = 0;
-	}
-	}
-	}
-	return (result);
+if (c >= 48 && c <= 57)
+{
+return (1);
+}
+return (0);
 }
