@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-extern int make_iso_compilers_most_happy;
 /**
  * main - finds and prints the largest prime factor of the number 612852475143
  * followed by a new line
