@@ -11,16 +11,16 @@
 int _isdigit(int c)
 {
 	int result;
-	int num;
-	int alpha;
+	int num = '0';
+	int alpha = 'a';
 
-	for (num = '0'; num <= '9'; num++)
+	for ( ; num <= '9'; num++)
 	{
 	if (c == num)
 	{
 	result = 1;
 	}
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	for ( ; alpha <= 'z'; alpha++)
 	{
 	if (c == alpha)
 	{
