@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * puts_half - this function prints half of the string
- * @param: str - pointer to the string
- * output: 56789
- * Description: this function prints half of the string
- * Return: void(nothing)
+ *puts_half - prints half of the string.
+ *@str: pointer to the string to be printed.
+ *Return: void (nothing).
  */
 
 void puts_half(char *str)
