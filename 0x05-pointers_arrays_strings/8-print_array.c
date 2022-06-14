@@ -1,14 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
- /**
- * print_array -  prints elements of an array of integers
- * @a: pointer to an array of integers
- * @n: number of elements in the array
- * output: 98, 402, -198, 298, -1024
- * Description: prints elements of an array of integers
- * return: void(nothing)
- *
+/**
+ * print_array - prints elements of array
+ * @n: number of array to be printed
+ * @a: array of integer type
+ * Return: void(nothing)
  */
 
 void print_array(int *a, int n)
