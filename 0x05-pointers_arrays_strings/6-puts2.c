@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "main.h"
-extern int make_iso_compilers_happy;
+
 /**
- * @brief: puts2 every other character of a string
+ * puts2 -print every other character of a string
  * @str: pointer to the string
- * @output: 2 4 6 8 10
+ * output: 2 4 6 8 10
  * Description: This function prints  every other character of a string
  */
+
 void puts2(char *str)
 {
 	int len = 0;
