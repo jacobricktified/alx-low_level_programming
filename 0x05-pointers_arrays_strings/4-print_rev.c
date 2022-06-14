@@ -1,13 +1,14 @@
 #include "main.h"
- /**
- * @brief: print_rev - This function prints the string in reverse
- * @s: pointer to the string
- * Return: void (nothing)
- * Description: This function prints the string in reverse
- * output: vomisA caasI - meht fo kcal eht raef I .sretupmoc raef ton od I
- *
- *
- */
+
+/**
+*print_rev - This function prints the string in reverse
+*@s: pointer to the string
+*Return: void (nothing)
+*Description: This function prints the string in reverse
+*output: vomisA caasI - meht fo kcal eht raef I .sretupmoc raef ton od
+*I
+*/
+
 void print_rev(char *s)
 {
 	int live;
