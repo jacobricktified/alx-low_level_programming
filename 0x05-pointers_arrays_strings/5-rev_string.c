@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "main.h"
- /**
- * @brief: this function prints the string in reverse
- * @param: s is the string to be reversed
- * @return: void(nothing)
- * Description: this function prints the string in reverse
- * output: vomisA caasI - meht fo kcal eht raef I .sretupmoc raef ton od I
+
+/**
+ * rev_string - function that reverses a string
+ * @s: pointer to the string that is being reversed
+ * Return: void(nothing)
+ * Decsription: this function prints the string in reverse
  */
+
 void rev_string(char *s)
 {
 	int len = 0;
