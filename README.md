@@ -1,7 +1,5 @@
 # **Low-level programming & Algorithm**
 
-![Tux, the Linux mascot](/assets/images/tux.png)
-
 ***Learning c programming language.***
 
 ## projects
