@@ -2,13 +2,12 @@
 #include <stdio.h>
 
  /**
- * @brief: prints elements of an array of integers
+ * print_array -  prints elements of an array of integers
  * @a: pointer to an array of integers
  * @n: number of elements in the array
- * @output: 98, 402, -198, 298, -1024
+ * output: 98, 402, -198, 298, -1024
  * Description: prints elements of an array of integers
- * @return: void(nothing)
- * @note: This function prints elements of an array of integers
+ * return: void(nothing)
  *
  */
 
