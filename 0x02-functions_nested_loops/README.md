@@ -1,6 +1,6 @@
-C - Functions, nested loops
+# C - Functions, nested loops
 
-Repo:
+# Repo:
 
     GitHub repository: alx-low_level_programming
     Directory: 0x02-functions_nested_loops
