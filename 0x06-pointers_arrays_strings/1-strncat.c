@@ -5,7 +5,7 @@
  * @src: pointer parameter of type char that will be concatenated
  * @n: parameter of type int that represent to the number of bytes to copy
  * Return: pointer to dest string
- * Description: a function that concatinates two strings
+ * Description: a function that concatinates two strings.
 */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -29,7 +29,7 @@ char *_strncat(char *dest, char *src, int n)
 		n = len;
 	}
 
-	src = st;
+	src = start;
 
 	for (i = 0; i < n; i++)
 	{
