@@ -5,7 +5,7 @@
  * @dest: pointer parameter of type char that will be concatenated
  * @src: pointer parameter of type char that will be concatenated
  * Return: dest string with src concatenated
- * Description: a function that concatinates two strings
+ * Description: a function that concatinates two strings.
 */
 char *_strcat(char *dest, char *src)
 {
