@@ -5,7 +5,7 @@
  * @s1: pointer to a string
  * @s2: pointer parameter of type char that will be copied from
  * Return: pointer to dest string
- * Description: a function that compares two strings
+ * Description: a function that compares two strings.
 */
 int _strcmp(char *s1, char *s2)
 {
