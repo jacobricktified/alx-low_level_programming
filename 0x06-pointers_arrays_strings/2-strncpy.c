@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncpy - function that copies a string
  * @dest: pointer parameter of type char that will be copied to
@@ -7,6 +8,7 @@
  * Return: pointer to dest string
  * Description: a function that copies a string.
 */
+
 char *_strncpy(char *dest, char *src, int n)
 {
 	int len = 0;
