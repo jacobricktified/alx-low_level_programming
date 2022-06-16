@@ -1,28 +1,44 @@
+
 #include "main.h"
 
 /**
- * cap_string - function that capitalizes all words of a string.
- * @s: pointer parameter of type char that is the string to be changed
- * Return: string with all lowercase letters changed to uppercase.
- * Description: a function that capitalizes all words of a string.
-*/
-
-char *cap_string(char *s)
+ * cap_string - capitalizes all words of a string
+ * @n: input value
+ *
+ *
+ * Return: string
+ */
+char *cap_string(char *n)
 {
-	char *x = s;
+	int i;
 
-	while (*s != '\0')
+	i = 0;
+	if (n[0] >= 'a' && n[0] <= 'z')
 	{
-		if ((*(s - 1) == ' ' || *(s - 1) == '\t' ||
-			*(s - 1) == '\n' || *(s - 1) == ',' ||
-			*(s - 1) == '.' || *(s - 1) == '!' ||
-			*(s - 1) == '?' || *(s - 1) == '\"' ||
-			*(s - 1) == '(' || *(s - 1) == ')' ||
-			*(s - 1) == '{' || *(s - 1) == '}') &&
-			(*s >= 'a' && *s <= 'z'))
-			*s -= 'a' - 'A';
-		s++;
+		n[0] = n[0] - 32;
 	}
-	return (x);
+	for (i = 0; n[i] != '\0'; i++)
+	{
+		switch (n[i])
+		{
+			case ',':
+			case ';':
+			case '.':
+			case '!':
+			case '?':
+			case '"':
+			case '(':
+			case ')':
+			case '{':
+			case '}':
+			case ' ':
+			case '\n':
+			case '\t':
+				if (n[i + 1] > 96 && n[i + 1] < 123)
+				{
+					n[i + 1] = n[i + 1] - 32;
+				}
+		}
+	}
+	return (n);
 }
-
