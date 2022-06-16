@@ -6,36 +6,28 @@
  * @src: pointer parameter of type char that will be copied from
  * @n: parameter of type int that represent to the number of bytes to copy
  * Return: pointer to dest string
- * Description: a function that copies a string.
+ * Description: a function that copies a string
 */
-
 char *_strncpy(char *dest, char *src, int n)
 {
-	int len = 0;
-	int i;
-	char *end = dest;
-	char *start = src;
+	int i = 0, len = 0;
 
-	while (*src)
+	while (dest[i] != '\0')
 	{
-		src++;
 		len++;
-
+		i++;
 	}
-	len = len + 1;
+	i = 0;
 
-	if (n > len)
+	while (i < n)
 	{
-		n = len;
+		if (len < i)
+			dest[i] = '\0';
+		else
+			dest[i] = src[i];
+		i++;
 	}
 
-	src = start;
-
-	for (i = 0; i < n; i++)
-	{
-		*dest++ = *src++;
-	}
-
-	return (end);
+	return (dest);
 }
 
