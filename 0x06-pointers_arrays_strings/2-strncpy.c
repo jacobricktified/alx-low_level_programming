@@ -8,26 +8,34 @@
  * Return: pointer to dest string
  * Description: a function that copies a string
 */
+
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i = 0, len = 0;
+	int len = 0;
+	int i;
+	char *end = dest;
+	char *start = src;
 
-	while (dest[i] != '\0')
+	while (*src)
 	{
+		src++;
 		len++;
-		i++;
-	}
-	i = 0;
 
-	while (i < n)
+	}
+	len = len + 1;
+
+	if (n > len)
 	{
-		if (len < i)
-			dest[i] = '\0';
-		else
-			dest[i] = src[i];
-		i++;
+		n = len;
 	}
 
-	return (dest);
+	src = start;
+
+	for (i = 0; i < n; i++)
+	{
+		*dest++ = *src++;
+	}
+
+	return (end);
 }
 
