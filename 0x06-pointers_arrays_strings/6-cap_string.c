@@ -6,6 +6,7 @@
  * Return: string with all lowercase letters changed to uppercase.
  * Description: a function that capitalizes all words of a string.
 */
+
 char *cap_string(char *s)
 {
 	char *x = s;
@@ -24,3 +25,4 @@ char *cap_string(char *s)
 	}
 	return (x);
 }
+
