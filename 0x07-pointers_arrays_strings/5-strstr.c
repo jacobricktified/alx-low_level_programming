@@ -6,7 +6,7 @@
  * @needle: substring to be located
  * Return: pointer to the first occurrence of needle
  * Description: locates the first occurrence
- * of substring needle in string haystack
+ * of substring needle in string haystack.
  */
 
 char *_strstr(char *haystack, char *needle)
