@@ -6,7 +6,7 @@
  * @src: pointer to the memory area to be copied from
  * @n: number of bytes to be copied
  * Return: pointer to the memory area dest
- * Description: function that copies memory area
+ * Description: function that copies memory area .
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
