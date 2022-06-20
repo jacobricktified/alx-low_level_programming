@@ -5,7 +5,7 @@
  * @haystack: string to be searched
  * @needle: substring to be located
  * Return: pointer to the first occurrence of needle
- * Description: locates the first occurrence .
+ * Description: locates the first occurrence.
  * of substring needle in string haystack.
  */
 
