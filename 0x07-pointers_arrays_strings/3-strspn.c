@@ -3,7 +3,7 @@
 /**
  * _strspn - gets length of a prefix substring
  * @s: string
- * @accept: char to be located
+ * @accept: char to be located .
  * Return: the number of bytes in the initial segment of
  * s which consist only of bytes from accept .
  */
