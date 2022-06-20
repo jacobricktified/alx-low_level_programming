@@ -6,7 +6,7 @@
  * @c: character to be located
  * Return: pointer to the first occurrence of c
  * Description: locates the first occurrence of c in s
- * and returns a pointer to it
+ * and returns a pointer to it .
  */
 
 char *_strchr(char *s, int c)
