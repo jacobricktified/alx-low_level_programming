@@ -6,7 +6,7 @@
  * @s: pointer to the string to be set
  * @to: pointer to the string to be set to
  * Return: void (no return)
- * Description: function that sets a pointer to a string to another string
+ * Description: function that sets a pointer to a string to another string .
  */
 
 void set_string(char **s, char *to)
