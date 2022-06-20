@@ -9,14 +9,18 @@
  * and returns a pointer to it .
  */
 
-char *_strchr(char *s, int c)
+char *_strchr(char *s, char c)
 {
+	int count = 0;
+
 	while (*s)
-		if (*s == c)
+	{
+		if ((*s == c) && (count == 0))
 		{
 			return (s);
+			count++;
 		}
-		else
-			s++;
-	return (0);
+		s++;
+	}
+	return (NULL);
 }
