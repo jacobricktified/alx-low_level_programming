@@ -5,7 +5,7 @@
  * @dest: pointer to the memory area to be copied
  * @src: pointer to the memory area to be copied from
  * @n: number of bytes to be copied
- * Return: pointer to the memory area dest
+ * Return: pointer to the memory area dest .
  * Description: function that copies memory area .
  */
 
