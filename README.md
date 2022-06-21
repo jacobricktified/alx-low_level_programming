@@ -9,4 +9,5 @@
 3. 0x03-debugging
 4. 0x04-more_functions_nested_loops
 5. 0x05-pointers_arrays_strings
-6. BettyBetty
+6. 0x07-pointers_arrays_strings
+7. BettyBetty
