@@ -4,7 +4,7 @@
  * _print_rev_recursion -  function that prints a string in reverse
  * @s: pointer to string to print
  * Return: void(no return)
- * Description: function that prints a string in reverse
+ * Description: function that prints a string in reverse.
  */
 
 void _print_rev_recursion(char *s)
