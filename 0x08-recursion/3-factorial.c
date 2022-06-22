@@ -4,7 +4,7 @@
  * factorial - function that returns the factorial of a number
  * @n: number to calculate the factorial of
  * Return: int (factorial of n)
- * Description: function that returns the factorial of a number
+ * Description: function that returns the factorial of a number.
  */
 
 int factorial(int n)
@@ -19,3 +19,4 @@ int factorial(int n)
 	}
 	return (n * factorial(n - 1));
 }
+
