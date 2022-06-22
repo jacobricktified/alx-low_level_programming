@@ -5,7 +5,7 @@
  * @str: pointer to string to print
  * Return: int (length of string)
  *
- * Description: function that returns the length of a string
+ * Description: function that returns the length of a string.
  */
 
 int _strlen(char *str)
@@ -48,3 +48,4 @@ int is_palindrome(char *s)
 	i = _strlen(s) - 1;
 	return (check_palindrome(0, i, s));
 }
+
