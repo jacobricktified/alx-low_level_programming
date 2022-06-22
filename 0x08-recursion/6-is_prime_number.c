@@ -5,7 +5,7 @@
  * @n: number to find the square root of
  * @m: number to compare to
  * Return: int (square root of n)
- * Description: function that returns the square root of a number
+ * Description: function that returns the square root of a number.
  */
 
 int sqtRecursive(int n, int m)
@@ -46,3 +46,4 @@ int is_prime_number(int n)
 		return (1);
 	return (_sqrt_recursion(n));
 }
+
