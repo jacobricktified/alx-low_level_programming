@@ -7,7 +7,7 @@
  * @end: ending number (not inclusive)
  * @m: number to compare to
  * Return: square root of m or -1
- * Description: function that returns the square root of a number
+ * Description: function that returns the square root of a number.
  */
 
 int sqtRecursive(int start, int end, int m)
@@ -42,3 +42,4 @@ int _sqrt_recursion(int n)
 		return (n);
 	return (sqtRecursive(2, n, n));
 }
+
