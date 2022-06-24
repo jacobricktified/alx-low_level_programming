@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - function
+ * main - start of program
  *@argc: length of argv
  *@argv: number of argument
- *Return: Always 0
+ *Return: 0 success.
  */
 
 int main(int argc, char *argv[])
@@ -49,3 +49,4 @@ position++;
 printf("%d\n", change);
 return (0);
 }
+
