@@ -25,3 +25,4 @@ char *_strdup(char *str)
 	sd[size] = '\0';
 	return (sd);
 }
+
