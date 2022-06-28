@@ -6,7 +6,7 @@
  * @size: size of array
  * @c: character to fill array with
  * Return: pointer to array or NULL if failure occurs
- * Description: a function that creates an array of chars
+ * Description: a function that creates an array of chars.
  */
 
 char *create_array(unsigned int size, char c)
