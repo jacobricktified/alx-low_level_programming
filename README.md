@@ -13,4 +13,6 @@
 7. 0x08-recursion
 8. 0x09-static_libraries
 9. 0x0A-argc_argv
-8. BettyBetty
+10. 0x0B-malloc_free
+11. BettyBetty
+
