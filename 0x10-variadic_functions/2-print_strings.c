@@ -10,24 +10,23 @@
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	va_list strings;
-	unsigned int i;
-	char *p;
+	va_list arguments;
+	unsigned int s;
+	char *clone;
 
-	va_start(strings, n);
-	for (i = 0; i < n; i++)
+	va_start(arguments, n);
+
+	for (s = 0; s < n; s++)
 	{
-		p = va_arg(strings, char *);
-		if (p)
-		{
-			printf("%s", p);
-			if (i < n - 1)
-				printf("%s", separator);
-		}
+		clone = va_arg(arguments, char*);
+		if (clone != NULL)
+			printf("%s", clone);
 		else
-			printf("(nil)");
+			printf("%p", clone);
+		if (separator != NULL && s < n - 1)
+			printf("%s", separator);
 	}
 	printf("\n");
-	va_end(strings);
+	va_end(arguments);
 }
 
