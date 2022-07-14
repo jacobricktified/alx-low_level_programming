@@ -15,5 +15,6 @@
 9. 0x0A-argc_argv
 10. 0x0B-malloc_free
 11. 0x10. C - Variadic functions
-11. BettyBetty
+12. 0x12-singly_linked_lists
+13. BettyBetty
 
