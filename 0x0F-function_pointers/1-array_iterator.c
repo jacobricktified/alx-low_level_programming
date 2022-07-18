@@ -4,7 +4,7 @@
  * array_iterator - prints an integer
  * @array: the array to print
  * @size: the size of the array
- * @action: the function to print the array
+ * @action: the function to print the array.
  * Return: void (no return)
  */
 
