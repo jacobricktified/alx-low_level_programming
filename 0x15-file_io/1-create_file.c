@@ -48,3 +48,4 @@ int _strlen(char *s)
 	}
 	return (outcome);
 }
+
