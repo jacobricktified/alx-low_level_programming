@@ -64,3 +64,4 @@ void close_new(int f_n)
 		exit(100);
 	}
 }
+
